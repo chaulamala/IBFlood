@@ -30,11 +30,11 @@
                         @enderror
                     </div>
                     <div class="form-group row m-t-20">
-                        <div class="col-sm-6">
+                        <!-- <div class="col-sm-6">
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input" id="customControlInline"><label class="custom-control-label" for="customControlInline">Remember me</label>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-sm-6 text-right">
                             <button class="btn btn-primary w-md waves-effect waves-light" type="submit">Log In</button>
                         </div>
@@ -54,7 +54,7 @@
             {{--Don't have an account ? <a href="{{ route('register') }}" class="font-500 text-primary">Signup now</a>--}}
             {{--</p>--}}
             <p>
-                © 2021 Web Information Brebes <span class="d-none d-sm-inline-block"></span>
+                © 2020 Web Information Brebes <span class="d-none d-sm-inline-block"></span>
             </p>
         </div>
     </div>
