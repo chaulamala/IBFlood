@@ -35,7 +35,7 @@
                                 <input type="checkbox" class="custom-control-input" id="customControlInline"><label class="custom-control-label" for="customControlInline">Remember me</label>
                             </div>
                         </div> -->
-                        <div class="col-sm-6 text-right">
+                        <div class="col-sm-12 text-right">
                             <button class="btn btn-primary w-md waves-effect waves-light" type="submit">Log In</button>
                         </div>
                     </div>
