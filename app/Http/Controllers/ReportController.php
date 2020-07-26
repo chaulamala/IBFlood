@@ -23,12 +23,12 @@ class ReportController extends Controller
     public function index()
     {
         $bulan = Carbon::now()->month;
-         $report = Report::select
-        (DB::raw('avg(debittumpah) as debittumpah, avg(sungai) as sungai, DATE(created_at) as day'))
-            ->groupBy('day')->whereMonth('created_at', $bulan)->get();
+        //  $report = Report::select
+        // (DB::raw('avg(debittumpah) as debittumpah, avg(sungai) as sungai, DATE(created_at) as day'))
+        //     ->groupBy('day')->whereMonth('created_at')->get();
 
-        // $report = Report::select('created_at', DB::raw('AVG(sungai) as sungai'), DB::raw('AVG(debittumpah) as debittumpah'))
-        //     ->groupBy('created_at')->whereMonth('created_at', $bulan)->get();
+        $report = Report::select('created_at', DB::raw('AVG(sungai) as sungai'), DB::raw('AVG(debittumpah) as debittumpah'))
+            ->groupBy('created_at')->whereMonth('created_at', $bulan)->get();
 
         $t = Carbon::now()->month($bulan)->endOfMonth()->format('d');
         $tanggal = (int)$t;
@@ -37,7 +37,7 @@ class ReportController extends Controller
         foreach ($report as $item) {
             $date = date_format($item->created_at, "d");
             $reports["$date"] = [
-                'day' => $item->day,
+                'created_at' => $item->created_at,
                 'sungai' => $item->sungai,
                 'debit_tumpah' => $item->debittumpah
             ];
