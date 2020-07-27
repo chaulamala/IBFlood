@@ -9,7 +9,7 @@ Use App\Notif;
 class NotifController extends Controller
 {
     public function index(){
-        $notif = Notif::all()->get();
+        $notif = Notif::all();
         return response()->json([
            'message' => 'berhasil',
            'status' => 1,
