@@ -22,3 +22,9 @@ Route::get('report/monthnow','Api\ReportController@monthnow');
 Route::get('report/daynow','Api\ReportController@daynow');
 Route::get('report/cobanow','Api\ReportController@cobanow');
 
+Route::post('notif/create','Api\NotifController@store');
+Route::get('notif','Api\NotifController@index');
+
+
+
+
