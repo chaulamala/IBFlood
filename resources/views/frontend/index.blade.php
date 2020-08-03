@@ -383,7 +383,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="footer-logo text-center">
-                    <a class="mt-30" href="{{route('/')}}"><img src="{{ asset('frontend/assets/images/logo.svg')}}" alt="Logo"></a>
+                    <a class="mt-30" href="#"><img src="{{ asset('frontend/assets/images/logo.svg')}}" alt="Logo"></a>
                 </div> <!-- footer logo -->
                 <ul class="social text-center mt-60">
                     {{--<li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>--}}
