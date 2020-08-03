@@ -428,6 +428,47 @@
 <!--====== PART ENDS ======-->
 
 
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyDiD8cl8Mt4d5NuD3oxs5HY-7ZzVoiLIZw",
+        authDomain: "ibflood.firebaseapp.com",
+        databaseURL: "https://ibflood.firebaseio.com",
+        projectId: "ibflood",
+        storageBucket: "ibflood.appspot.com",
+        messagingSenderId: "463737117362",
+        appId: "1:792284993851:android:ba07dca2a6003d0eabff1e",
+        measurementId: "G-PVEEM9035Y"
+    };
+
+    //1:792284993851:android:ba07dca2a6003d0eabff1e
+    //1:463737117362:web:2aaea7fd009c77b3b287ab
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    // const analityc = firebase.analytics();
+    // console.log(analityc)
+    var refirebase = firebase.database().ref('/Raspi3/');
+    // console.log(refirebase)
+    refirebase.on('value', function (snapshot) {
+        const debit = document.querySelector('#debit');
+        debit.innerText = snapshot.child('Debit/Ketinggian').val();
+
+        const statusd = document.querySelector('#statusd');
+        statusd.innerText = snapshot.child('Debit/Status').val();
+
+        const sungai = document.querySelector('#sungai');
+        sungai.innerText = snapshot.child('Sungai/Ketinggian').val();
+
+        const statuss = document.querySelector('#statuss');
+        statuss.innerText = snapshot.child('Sungai/Status').val();
+
+    });
+</script>
+
+
 
 
 <!--====== Jquery js ======-->
