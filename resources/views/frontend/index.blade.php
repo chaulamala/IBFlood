@@ -5,7 +5,7 @@
     <meta charset="utf-8">
 
     <!--====== Title ======-->
-    <title>Smash - Bootstrap Business Template</title>
+    <title>Website Information Brebes Flood</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -82,7 +82,7 @@
                             <li class="nav-item active"><a class="page-scroll" href="#home">home</a></li>
                             <li class="nav-item"><a class="page-scroll" href="#services">Services</a></li>
                             <!--                                 <li class="nav-item"><a class="page-scroll" href="#pricing">Pricing</a></li>
-                             -->                                <li class="nav-item"><a class="page-scroll" href="#about">About</a></li>
+                             -->                                <li class="nav-item"><a class="page-scroll" href="#about">Aplikasi</a></li>
                             <li class="nav-item"><a class="page-scroll" href="#contact">Contact</a></li>
                         </ul>
                     </div>
@@ -117,10 +117,10 @@
                         <div class="col-lg-6">
                             <div class="slider-content">
                                 <h1 class="title">Business is Now Digital</h1>
-                                <p class="text">We blend insights and strategy to create digital products for forward-thinking organisations.</p>
+                                <p class="text">Cuma Simulasi</p>
                                 <ul class="slider-btn rounded-buttons">
-                                    <li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>
-                                    <li><a class="main-btn rounded-two" href="#">DOWNLOAD</a></li>
+                                    {{--<li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>--}}
+                                    {{--<li><a class="main-btn rounded-two" href="#">DOWNLOAD</a></li>--}}
                                 </ul>
                             </div>
                         </div>
