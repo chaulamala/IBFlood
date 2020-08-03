@@ -79,7 +79,7 @@
 
                     <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                         <ul class="navbar-nav m-auto">
-                            <li class="nav-item active"><a class="page-scroll" href="#home">home</a></li>
+                            <li class="nav-item active"><a class="page-scroll" href="#home">Home</a></li>
                             <li class="nav-item"><a class="page-scroll" href="#services">Services</a></li>
                             <!--                                 <li class="nav-item"><a class="page-scroll" href="#pricing">Pricing</a></li>
                              -->                                <li class="nav-item"><a class="page-scroll" href="#about">Aplikasi</a></li>
@@ -116,8 +116,8 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="slider-content">
-                                <h1 class="title">Business is Now Digital</h1>
-                                <p class="text">Cuma Simulasi</p>
+                                <h1 class="title">Information Brebes Flood</h1>
+                                <p class="text">Hanya untuk simulasi tugas akhir</p>
                                 <ul class="slider-btn rounded-buttons">
                                     {{--<li><a class="main-btn rounded-one" href="#">GET STARTED</a></li>--}}
                                     {{--<li><a class="main-btn rounded-two" href="#">DOWNLOAD</a></li>--}}
@@ -261,39 +261,39 @@
             <div class="col-lg-5">
                 <div class="faq-content mt-45">
                     <div class="about-title">
-                        <h6 class="sub-title">Info Information Brebes Flood</h6>
-                        <h4 class="title">Tata cara nya</h4>
+                        <h6 class="sub-title">Cara mengakses informasi melalui website Information Brebes Flood</h6>
+                        <h4 class="title">Tata caranya adalah sebagai berikut :</h4>
                     </div> <!-- faq title -->
                     <div class="about-accordion">
                         <div class="accordion" id="accordionExample">
                             <div class="card">
                                 <div class="card-header" id="headingOne">
-                                    <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bagaimana untuk menginstall aplikasi itu ?</a>
+                                    <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bagaimana untuk menginstall aplikasi Information Brebes Flood untuk mendapatkan informasi tentang ketinggian air sungai Pemali pada smartphone?</a>
                                 </div>
 
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                     <div class="card-body">
-                                        <p class="text">Anda search di google playstore dengan pencarian information brebes flood atau bisa klik dengan link ini.</p>
+                                        <p class="text">Anda dapat melakukan pencarian pada playstore dengan menuliskan "Information Brebes Flood" atau bisa langsung klik dengan link berikut</p>
                                     </div>
                                 </div>
                             </div> <!-- card -->
                             <div class="card">
                                 <div class="card-header" id="headingTwo">
-                                    <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Apakah fitur yang didalam aplikasi itu?</a>
+                                    <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Apakah fitur yang ada didalam aplikasi tersebut?</a>
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                     <div class="card-body">
-                                        <p class="text">Aplikasi itu bisa untuk memonitoring keadaan ketinggian debit tumpah (bendungan) dan sungai, melihat riwayat pada bulan ini dan hari ini, serta juga notifikasi ketika dalam kondisi bahaya.</p>
+                                        <p class="text">Aplikasi tersebut dapat digunakan untuk memonitoring keadaan ketinggian debit tumpah (bendungan) dan sungai, melihat riwayat pada bulan ini dan hari ini, serta dapat mendapatkan notifikasi ketika sungai dalam kondisi bahaya</p>
                                     </div>
                                 </div>
                             </div> <!-- card -->
                             <div class="card">
                                 <div class="card-header" id="headingThree">
-                                    <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Apakah saya kalo tidak install aplikasi itu bisa dapat pemberitahuan dalam kondisi bahaya?</a>
+                                    <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Apakah dapat tetap menerima pemberitahuan sungai ketika dalam kondisi bahaya tetapi tidak memiliki aplikasi tersebut?</a>
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                     <div class="card-body">
-                                        <p class="text">Bisa tetep dapat dengan mendaftarkan nomor whatsapp ke sini.</p>
+                                        <p class="text">BISA<br>Anda akan tetap mendapatkan pemberitahuan apabila sungai dalam kondisi bahaya dengan mendaftarkan nomor whatsapp anda pada form yang tertera dibawah ini :</p>
                                         <form>
                                             <input type="" name="no_hp">
                                             <input type="submit" name="simpan">
@@ -342,7 +342,7 @@
             <div class="col-lg-6 col-md-10">
                 <div class="section-title text-center pb-30">
                     <h3 class="title">Contact</h3>
-                    <p class="text">Informasi Pemerintah Kabupaten Brebes</p>
+                    <p class="text">Apabila ada yang ingin anda tanyakan perihal Informasi Debit Air Sungai Pemali Kabupaten Brebes, anda dapat menghubungi kami pada : <br> Senin – Kamis : 07.30 – 16.00 WIB Dan Jumat : 07.30 - 11.00 WIB </p>
                 </div> <!-- section title -->
             </div>
         </div> <!-- row -->
@@ -355,7 +355,7 @@
                             <i class="lni lni-map-marker"></i>
                         </div>
                         <div class="contact-info-content media-body">
-                            <p class="text"> Elizabeth St, Melbourne<br>1202 Australia.</p>
+                            <p class="text">Dinas Pengelolaan Sumber Daya Air dan Tata Ruang Kabupaten Brebes<br>Alamat : JL. Hassanuddin, Komplek RSS. Gandasuli, Pecolotan, Gandasuli, Kec. Brebes, Kabupaten Brebes, Jawa Tengah 52215</p>
                         </div>
                     </div> <!-- single contact info -->
                 </div>
@@ -365,8 +365,7 @@
                             <i class="lni lni-envelope"></i>
                         </div>
                         <div class="contact-info-content media-body">
-                            <p class="text">hello@ayroui.com</p>
-                            <p class="text">support@uideck.com</p>
+                            <p class="text">adminpemkab@gmail.com</p>
                         </div>
                     </div> <!-- single contact info -->
                 </div>
@@ -376,8 +375,7 @@
                             <i class="lni lni-phone"></i>
                         </div>
                         <div class="contact-info-content media-body">
-                            <p class="text">+333 789-321-654</p>
-                            <p class="text">+333 985-458-609</p>
+                            <p class="text">(0283) 6174144</p>
                         </div>
                     </div> <!-- single contact info -->
                 </div>
