@@ -14,9 +14,12 @@
 
 //Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', function () {
-    return view('auth/login');
+    return view('frontend.index');
 });
-
+//
+//Route::get('/', function () {
+//    return view('auth/login');
+//});
 //Route::get('print')
 
 Route::group(['prefix' => 'admin'], function (){
