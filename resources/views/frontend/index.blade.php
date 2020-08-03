@@ -185,6 +185,7 @@
                   <i class="lni lni-arrow-right"></i>
               </a> -->
         </div>
+    </div>
 </section>
 
 <!--====== SLIDER PART ENDS ======-->

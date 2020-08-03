@@ -6,7 +6,7 @@
                 <div class="col-sm-6">
                     <h4 class="page-title">Dashboard</h4>
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item active">Welcome to IBF</li>
+                        <li class="breadcrumb-item active">Welcome to Information Brebes Flood</li>
                     </ol>
                 </div>
             </div>
@@ -82,15 +82,18 @@
     <script>
         // Your web app's Firebase configuration
         var firebaseConfig = {
-            apiKey: "AIzaSyBvtK_grzpMJFPd6HVhNVqLA9zf1xMYBGs",
-            authDomain: "ibrebesf.firebaseapp.com",
-            databaseURL: "https://ibrebesf.firebaseio.com",
-            projectId: "ibrebesf",
-            storageBucket: "ibrebesf.appspot.com",
+            apiKey: "AIzaSyDiD8cl8Mt4d5NuD3oxs5HY-7ZzVoiLIZw",
+            authDomain: "ibflood.firebaseapp.com",
+            databaseURL: "https://ibflood.firebaseio.com",
+            projectId: "ibflood",
+            storageBucket: "ibflood.appspot.com",
             messagingSenderId: "463737117362",
-            appId: "1:463737117362:web:2aaea7fd009c77b3b287ab",
+            appId: "1:792284993851:android:ba07dca2a6003d0eabff1e",
             measurementId: "G-PVEEM9035Y"
         };
+
+        //1:792284993851:android:ba07dca2a6003d0eabff1e
+        //1:463737117362:web:2aaea7fd009c77b3b287ab
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
         // const analityc = firebase.analytics();
