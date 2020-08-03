@@ -261,7 +261,7 @@
             <div class="col-lg-5">
                 <div class="faq-content mt-45">
                     <div class="about-title">
-                        <h6 class="sub-title">Cara mengakses informasi melalui website Information Brebes Flood</h6>
+                        <h6 class="sub-title">Cara mengakses informasi yang ada pada Information Brebes Flood</h6>
                         <h4 class="title">Tata caranya adalah sebagai berikut :</h4>
                     </div> <!-- faq title -->
                     <div class="about-accordion">
