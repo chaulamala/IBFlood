@@ -13,11 +13,12 @@
 
 
 //Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/', function () {
-    return view('frontend.index');
-});
+//Route::get('/', function () {
+//    return view('frontend.index');
+//});
 
 Route::post('/', 'FrontendController@daftar')->name('frontend.store');
+Route::get('/', 'FrontendController@index')->name('frontend.index');
 
 //
 //Route::get('/', function () {

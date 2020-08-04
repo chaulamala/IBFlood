@@ -7,12 +7,14 @@ use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
+    public function index(){
+        return view('frontend.index');
+    }
     public function daftar(Request $request){
         $masyarakat = new Masyarakat();
         $masyarakat->no_hp = $request->no_hp;
         $masyarakat->save();
-        return view('frontend.index')->with('success','Berhasil');
-        //return redirect()->route('frontend')->with('success', 'Berhasil Mendaftarakan Whatsapp');
+        return redirect()->route('frontend.index')->with('success', 'Berhasil Mendaftarakan Whatsapp');
 
 
     }
