@@ -11,7 +11,8 @@ class FrontendController extends Controller
         $masyarakat = new Masyarakat();
         $masyarakat->no_hp = $request->no_hp;
         $masyarakat->save();
-        return redirect()->route('frontend')->with('success', 'Berhasil Mendaftarakan Whatsapp');
+        return view('frontend.index')->with('success','Berhasil');
+        //return redirect()->route('frontend')->with('success', 'Berhasil Mendaftarakan Whatsapp');
 
 
     }

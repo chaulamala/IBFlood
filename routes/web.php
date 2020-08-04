@@ -14,7 +14,7 @@
 
 //Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', function () {
-    return view('frontend.index')->name('frontend');
+    return view('frontend.index');
 });
 
 Route::post('/', 'FrontendController@daftar')->name('frontend.store');
