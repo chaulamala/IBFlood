@@ -68,7 +68,7 @@
                 <nav class="navbar navbar-expand-lg">
 
                     <a class="navbar-brand" href="#">
-                        <img src="{{asset('frontend/assets/images/logo.svg')}}" alt="Logo">
+                        <img src="{{asset('frontend/assets/images/iconp.png')}}" alt="Logo">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
@@ -208,11 +208,12 @@
                     <div class="features-title-icon d-flex justify-content-between">
                         <h4 class="features-title"><a href="#">DEBIT TUMPAH</a></h4>
                         <div class="features-icon">
-                            <h4 alt="Shape" id="debit"></h4>
+
                             {{--<img class="shape" src="{{asset('frontend/assets/images/f-shape-1.svg')}}" alt="Shape">--}}
                         </div>
                     </div>
                     <div class="features-content">
+                        <h4 alt="Shape" id="debit"></h4>
                         {{--<p class="text">Short description for the ones who look for something new. Short description for the ones who look for something new.</p>--}}
                         <a class="features-btn" href="#" id="statusd"></a>
                     </div>
@@ -223,12 +224,13 @@
                     <div class="features-title-icon d-flex justify-content-between">
                         <h4 class="features-title"><a href="#">SUNGAI</a></h4>
                         <div class="features-icon">
-                            <h4 alt="Shape" id="sungai"></h4>
 
                             {{--<img class="shape" src="{{asset('frontend/assets/images/f-shape-1.svg')}}" alt="Shape">--}}
                         </div>
                     </div>
                     <div class="features-content">
+                        <h4 alt="Shape" id="sungai"></h4>
+
                         {{--<p class="text">Short description for the ones who look for something new. Short description for the ones who look for something new.</p>--}}
                         <a class="features-btn" href="#" id="statuss"></a>
                     </div>
