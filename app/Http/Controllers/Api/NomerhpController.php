@@ -9,7 +9,7 @@ use App\Masyarakat;
 class NomerhpController extends Controller
 {
     public function all(){
-        $masyarakat = Masyarakat::all();
+        $masyarakat = Masyarakat::select('no_hp')->get();
         return response()->json([
             'message' => 'berhasil',
             'status' => 1,
