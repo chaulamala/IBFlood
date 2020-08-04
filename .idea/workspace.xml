@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73133a66-218b-4b03-8b82-5bebe6914149" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/contact.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/css/LineIcons.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/css/default.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/css/magnific-popup.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/css/slick.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/css/style.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/fonts/LineIcons.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/fonts/LineIcons.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/fonts/LineIcons.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/fonts/LineIcons.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/fonts/LineIcons.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/about.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/basic.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/enterprise.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/f-shape-1.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/favicon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/iconp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/logo-2.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/logo76p.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/portfolio/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/portfolio/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/portfolio/3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/portfolio/4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/portfolio/5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/portfolio/6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/portfolio/7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/portfolio/8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/portfolio/9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/portfolio/shape.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/pro.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/slider/1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/slider/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/images/slider/3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/js/ajax-contact.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/js/imagesloaded.pkgd.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/js/isotope.pkgd.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/js/jquery.easing.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/js/jquery.magnific-popup.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/js/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/js/popper.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/js/scrolling-nav.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/js/slick.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/js/vendor/jquery-1.12.4.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/js/vendor/modernizr-3.7.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,11 +16,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Desktop/smash-template-opl/assets/js/main.js">
+      <file leaf-file-name="Masyarakat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Masyarakat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrontendController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontendController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#39#58#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2020_08_04_073647_create_masyarakats_table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2020_08_04_073647_create_masyarakats_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notif.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Notif.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,6 +103,9 @@
         <option value="$PROJECT_DIR$/resources/views/pages/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/index.blade.php" />
         <option value="$PROJECT_DIR$/public/frontend/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/app/Masyarakat.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FrontendController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_08_04_073647_create_masyarakats_table.php" />
       </list>
     </option>
   </component>
@@ -273,14 +261,6 @@
               <item name="IBFlood" type="b2602c69:ProjectViewProjectNode" />
               <item name="IBFlood" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="IBFlood" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IBFlood" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Notifications" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -293,6 +273,12 @@
               <item name="IBFlood" type="b2602c69:ProjectViewProjectNode" />
               <item name="IBFlood" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="IBFlood" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBFlood" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="IBFlood" type="b2602c69:ProjectViewProjectNode" />
@@ -353,12 +339,12 @@
       <workItem from="1595863377718" duration="1554000" />
       <workItem from="1596457734836" duration="5923000" />
       <workItem from="1596469635229" duration="3248000" />
-      <workItem from="1596498163867" duration="2938000" />
+      <workItem from="1596498163867" duration="3583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18754000" />
+    <option name="totallyTimeSpent" value="19399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -371,8 +357,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21633889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21633889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -381,7 +368,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30385852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47749197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -404,27 +391,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_07_25_140734_create_reports_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -444,6 +410,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1802">
           <caret line="111" column="5" lean-forward="false" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -489,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Notif.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/NotifController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -514,6 +474,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +853,41 @@
     <entry file="file://$USER_HOME$/Desktop/smash-template-opl/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Notif.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Masyarakat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontendController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#39#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_08_04_073647_create_masyarakats_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
       </provider>
