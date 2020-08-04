@@ -197,8 +197,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-10">
                 <div class="section-title text-center pb-10">
-                    <h3 class="title">Our Services</h3>
-                    <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                    <h3 class="title">Pelayanan kami</h3>
+                    <p class="text">Kami akan memberi anda informasi tentang data ketinggian air pada sungai Pemali dan data ketinggian air pada bendungan secara realtime yang dapat anda akses setiap saat  </p>
                 </div> <!-- row -->
             </div>
         </div> <!-- row -->
