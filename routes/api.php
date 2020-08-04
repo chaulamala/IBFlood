@@ -24,6 +24,7 @@ Route::get('report/cobanow','Api\ReportController@cobanow');
 
 Route::post('notif/create','Api\NotifController@store');
 Route::get('notif','Api\NotifController@index');
+Route::get('nohp','Api\NomerhpController@all');
 
 
 
