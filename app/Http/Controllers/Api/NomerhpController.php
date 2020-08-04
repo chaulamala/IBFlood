@@ -16,4 +16,7 @@ class NomerhpController extends Controller
             'data' => $masyarakat
         ]);
     }
+
+
+
 }
