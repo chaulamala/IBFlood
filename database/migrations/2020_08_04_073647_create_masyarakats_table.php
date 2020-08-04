@@ -15,7 +15,7 @@ class CreateMasyarakatsTable extends Migration
     {
         Schema::create('masyarakats', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('no_hp','13');
+            $table->string('no_hp','13')->unique();
             $table->timestamps();
         });
     }
