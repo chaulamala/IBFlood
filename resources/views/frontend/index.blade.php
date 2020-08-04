@@ -283,9 +283,10 @@
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                     <div class="card-body">
                                         <p class="text">BISA<br>Anda akan tetap mendapatkan pemberitahuan apabila sungai dalam kondisi bahaya dengan mendaftarkan nomor whatsapp anda pada form yang tertera dibawah ini :</p>
-                                        <form>
-                                            <input type="" name="no_hp">
-                                            <input type="submit" name="simpan">
+                                        <form action="{{route('frontend.store')}}" method="post">
+                                            {{csrf_field()}}
+                                            <input type="text" name="no_hp">
+                                            <button type="submit" class="btn btn-primary">Daftar</button>
                                         </form>
                                     </div>
                                 </div>
