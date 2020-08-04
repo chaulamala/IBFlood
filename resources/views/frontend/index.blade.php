@@ -285,7 +285,7 @@
                                         <p class="text">BISA<br>Anda akan tetap mendapatkan pemberitahuan apabila sungai dalam kondisi bahaya dengan mendaftarkan nomor whatsapp anda pada form yang tertera dibawah ini :</p>
                                         <form action="{{route('frontend.store')}}" method="post">
                                             {{csrf_field()}}
-                                            <input type="text" name="no_hp">
+                                            <input type="text" name="no_hp"  onkeypress="return validateAngka(event)">
                                             <button type="submit" class="btn btn-primary">Daftar</button>
                                         </form>
                                     </div>
@@ -427,7 +427,15 @@
 -->
 
 <!--====== PART ENDS ======-->
-
+<script>
+    function validateAngka(evt) {
+        var charCode = (evt.which) ? evt.which : event.keyCode
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+        return true;
+        // body...
+    }
+</script>
 
 <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
