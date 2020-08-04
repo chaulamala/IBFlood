@@ -68,7 +68,7 @@
                 <nav class="navbar navbar-expand-lg">
 
                     <a class="navbar-brand" href="#">
-                        <img src="{{asset('frontend/assets/images/iconp.png')}}" alt="Logo">
+                        <img src="{{asset('frontend/assets/images/iconp.png')}}">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
