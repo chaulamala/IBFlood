@@ -262,7 +262,7 @@
 
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                     <div class="card-body">
-                                        <p class="text">Anda dapat melakukan pencarian pada playstore dengan menuliskan "Information Brebes Flood" atau bisa langsung klik dengan link berikut</p>
+                                        <p class="text">Anda dapat bisa langsung download aplikasi dengan link berikut :  https://bit.ly/apk-simulasiibf</p>
                                     </div>
                                 </div>
                             </div> <!-- card -->
