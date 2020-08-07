@@ -262,7 +262,7 @@
 
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                     <div class="card-body">
-                                        <p class="text">Anda dapat bisa langsung download aplikasi dengan link berikut :  https://bit.ly/apk-simulasiibf</p>
+                                        <p class="text">Anda dapat bisa langsung download aplikasi dengan link berikut <a href="https://bit.ly/apk-simulasiibf">ini</a>.</p>
                                     </div>
                                 </div>
                             </div> <!-- card -->
