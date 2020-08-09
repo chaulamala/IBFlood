@@ -80,8 +80,6 @@ class ReportController extends Controller
             ->groupBy('day')->whereMonth('created_at', $request->bulan)->get();
 
         $bulan = $request->bulan;
-//        $t = Carbon::now()->month($bulan)->endOfMonth()->format('d');
-//        $tanggal = (int)$t;
 
         $start = Carbon::now()->startOfMonth();
         $last = Carbon::now()->lastOfMonth();
@@ -110,9 +108,6 @@ class ReportController extends Controller
         $report = Report::select(DB::raw('DATE(created_at) as day'), DB::raw('AVG(sungai) as sungai'), DB::raw('AVG(debittumpah) as debittumpah'))
             ->groupBy('day')->whereMonth('created_at', $bulan)->get();
 
-
-//        $t = Carbon::now()->month($bulan)->endOfMonth()->format('d');
-//        $tanggal = (int)$t;
 
         $start = Carbon::now()->startOfMonth();
         $last = Carbon::now()->lastOfMonth();
