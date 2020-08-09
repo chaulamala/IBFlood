@@ -34,6 +34,7 @@
                                 <td>{{$dbt->created_at->format('H:i')}}</td>
                                 <td>{{$dbt->debittumpah}} cm</td>
 
+
                             </tr>
                             <?php $no++ ?>
                             @endforeach

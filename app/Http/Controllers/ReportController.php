@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Report;
+use Carbon\CarbonInterval;
 use Illuminate\Http\Request;
 use Barryvdh\DomPDF\Facade as PDF;
 use Carbon\Carbon;
@@ -23,29 +24,41 @@ class ReportController extends Controller
     public function index()
     {
         $bulan = Carbon::now()->month;
-        //  $report = Report::select
-        // (DB::raw('avg(debittumpah) as debittumpah, avg(sungai) as sungai, DATE(created_at) as day'))
-        //     ->groupBy('day')->whereMonth('created_at')->get();
 
-        $report = Report::select('created_at', DB::raw('AVG(sungai) as sungai'), DB::raw('AVG(debittumpah) as debittumpah'))
-            ->groupBy('created_at')->whereMonth('created_at', $bulan)->get();
 
-        $t = Carbon::now()->month($bulan)->endOfMonth()->format('d');
-        $tanggal = (int)$t;
+        $report = Report::select(DB::raw('DATE(created_at) as day'), DB::raw('AVG(sungai) as sungai'), DB::raw('AVG(debittumpah) as debittumpah'))
+            ->groupBy('day')->whereMonth('created_at', $bulan)->get();
+
+//        dd($report);
+
+
+//        $t = Carbon::now()->month($bulan)->endOfMonth()->format('d');
+//        $tanggal = (int)$t;
+
+        $start = Carbon::now()->startOfMonth();
+        $last = Carbon::now()->lastOfMonth();
+
+        $dates = [];
+
+        for ($i = 0; $i <= $last->diffInDays($start); $i++) {
+            $dates[] = (clone $start)->addDays($i)->format('d');
+        }
+
+//        dd($dates);
 
         $reports = [];
         foreach ($report as $item) {
-            $date = date_format($item->created_at, "d");
+            $date = substr($item->day, 8, 10);
             $reports["$date"] = [
-                'created_at' => $item->created_at,
+                'created_at' => $item->day,
                 'sungai' => $item->sungai,
                 'debit_tumpah' => $item->debittumpah
             ];
         }
 
-
-        return view('pages.datareport', compact('reports', 'bulan', 'tanggal'));
-        //return view('pages.datareport', compact('report', 'bulan'));
+//        dd($reports);
+//        dd($tanggal);
+        return view('pages.datareport', compact(['reports', 'bulan', 'dates']));
     }
 
     public function sungai()
@@ -56,45 +69,64 @@ class ReportController extends Controller
 
     public function debittumpah()
     {
-        $debittumpah = Report::select('created_at', 'debittumpah')->get();
+        $debittumpah = Report::select('created_at', 'debittumpah','sungai')->get();
         return view('pages.ketinggiandebittumpah', compact('debittumpah'));
     }
 
 
     public function search(Request $request)
     {
-        //$report = Report::select('created_at',DB::raw('AVG(sungai) as sungai'),DB::raw('AVG(debittumpah) as debittumpah'))->groupBy('created_at')->get();
-        $report = Report::select('created_at', DB::raw('AVG(sungai) as sungai'), DB::raw('AVG(debittumpah) as debittumpah'))
-            ->groupBy('created_at')->whereMonth('created_at', $request->bulan)->get();
+        $report = Report::select(DB::raw('DATE(created_at) as day'), DB::raw('AVG(sungai) as sungai'), DB::raw('AVG(debittumpah) as debittumpah'))
+            ->groupBy('day')->whereMonth('created_at', $request->bulan)->get();
 
         $bulan = $request->bulan;
-        $t = Carbon::now()->month($bulan)->endOfMonth()->format('d');
-        $tanggal = (int)$t;
+//        $t = Carbon::now()->month($bulan)->endOfMonth()->format('d');
+//        $tanggal = (int)$t;
+
+        $start = Carbon::now()->startOfMonth();
+        $last = Carbon::now()->lastOfMonth();
+
+        $dates = [];
+
+        for ($i = 0; $i <= $last->diffInDays($start); $i++) {
+            $dates[] = (clone $start)->addDays($i)->format('d');
+        }
 
         $reports = [];
         foreach ($report as $item) {
-            $date = date_format($item->created_at, "d");
+            $date = substr($item->day, 8, 10);
+
             $reports["$date"] = [
                 'created_at' => $item->created_at,
                 'sungai' => $item->sungai,
                 'debit_tumpah' => $item->debittumpah
             ];
         }
-        return view('pages.datareport', compact('reports', 'bulan', 'tanggal'));
+        return view('pages.datareport', compact('reports', 'bulan', 'dates'));
     }
 
     public function printreport($bulan)
     {
-        $report = Report::select('created_at', DB::raw('AVG(sungai) as sungai'), DB::raw('AVG(debittumpah) as debittumpah'))
-            ->groupBy('created_at')->whereMonth('created_at', $bulan)->get();
+        $report = Report::select(DB::raw('DATE(created_at) as day'), DB::raw('AVG(sungai) as sungai'), DB::raw('AVG(debittumpah) as debittumpah'))
+            ->groupBy('day')->whereMonth('created_at', $bulan)->get();
 
 
-        $t = Carbon::now()->month($bulan)->endOfMonth()->format('d');
-        $tanggal = (int)$t;
+//        $t = Carbon::now()->month($bulan)->endOfMonth()->format('d');
+//        $tanggal = (int)$t;
+
+        $start = Carbon::now()->startOfMonth();
+        $last = Carbon::now()->lastOfMonth();
+
+        $dates = [];
+
+        for ($i = 0; $i <= $last->diffInDays($start); $i++) {
+            $dates[] = (clone $start)->addDays($i)->format('d');
+        }
 
         $reports = [];
         foreach ($report as $item) {
-            $date = date_format($item->created_at, "d");
+            $date = substr($item->day, 8, 10);
+
             $reports["$date"] = [
                 'created_at' => $item->created_at,
                 'sungai' => $item->sungai,
@@ -109,7 +141,7 @@ class ReportController extends Controller
 
 
 
-        $pdf =PDF::setOptions(['isHtml5ParserEnabled' => true, 'isRemoteEnabled' => true])->loadview('pages.printreport', compact(['reports','bulan','tanggal', 'nama_bulan']));
+        $pdf =PDF::setOptions(['isHtml5ParserEnabled' => true, 'isRemoteEnabled' => true])->loadview('pages.printreport', compact(['reports','bulan','dates', 'nama_bulan']));
         return $pdf->stream();
 
 

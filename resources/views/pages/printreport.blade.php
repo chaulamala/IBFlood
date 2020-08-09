@@ -62,13 +62,24 @@
     </thead>
 
     <tbody>
-    @for($i = 1; $i <= $tanggal; $i++)
+    @foreach($dates as $date)
         <tr>
-            <td><strong> {{$i}} </strong></td>
-            <td><strong> {{isset($reports[$i]) ? $reports[$i]["sungai"].' cm' : '-'}} </strong></td>
-            <td><strong> {{isset($reports[$i]) ? $reports[$i]["debit_tumpah"].' cm' : '-'}} </strong></td>
+            <td>{{ $date }}</td>
+            <td>
+                <strong> {{isset($reports[$date]) ? number_format($reports[$date]["sungai"], 2).' cm' : '-'}}</strong>
+            </td>
+            <td>
+                <strong> {{isset($reports[$date]) ? number_format($reports[$date]["debit_tumpah"], 2).' cm' : '-'}} </strong>
+            </td>
         </tr>
-    @endfor
+    @endforeach
+    {{--@for($i = 1; $i <= $tanggal; $i++)--}}
+        {{--<tr>--}}
+            {{--<td><strong> {{$i}} </strong></td>--}}
+            {{--<td><strong> {{isset($reports[$i]) ? $reports[$i]["sungai"].' cm' : '-'}} </strong></td>--}}
+            {{--<td><strong> {{isset($reports[$i]) ? $reports[$i]["debit_tumpah"].' cm' : '-'}} </strong></td>--}}
+        {{--</tr>--}}
+    {{--@endfor--}}
     </tbody>
 </table>
 </body>

@@ -33,7 +33,8 @@
                             </div>
                             <div class="col-md-4" style="margin-top: 30px">
                                 <button type="submit" class="btn btn-success">Cari</button>
-                                <a href="{{route('printreport', $bulan)}}" class="btn btn-warning" target="_blank"> Print</a>
+                                <a href="{{route('printreport', $bulan)}}" class="btn btn-warning" target="_blank">
+                                    Print</a>
                             </div>
                         </form>
 
@@ -50,14 +51,32 @@
                             </thead>
                             <tbody>
 
-                            @for($i = 1; $i <= $tanggal; $i++)
+                            @foreach($dates as $date)
                                 <tr>
-                                    <td><strong> {{$i}} </strong></td>
-                                    {{--<td>{{isset($reports[$i]) ? $reports[$i]["created_at"]->format('d-m-Y') : '-'}}</td>--}}
-                                    <td> <strong> {{isset($reports[$i]) ? $reports[$i]["sungai"].' cm' : '-'}} </strong></td>
-                                    <td><strong> {{isset($reports[$i]) ? $reports[$i]["debit_tumpah"].' cm' : '-'}} </strong> </td>
+                                    <td>{{ $date }}</td>
+                                    <td>
+                                        <strong> {{isset($reports[$date]) ? number_format($reports[$date]["sungai"], 2).' cm' : '-'}}</strong>
+                                    </td>
+                                    <td>
+                                        <strong> {{isset($reports[$date]) ? number_format($reports[$date]["debit_tumpah"], 2).' cm' : '-'}} </strong>
+                                    </td>
                                 </tr>
-                            @endfor
+                            @endforeach
+
+                            {{--@for($i = 1; $i <= $tanggal; $i++)--}}
+                            {{--<tr>--}}
+                            {{--<td><strong> {{$i}} </strong></td>--}}
+                            {{--<td>--}}
+                            {{--<strong> {{isset($reports[$i]["sungai"])}} </strong>--}}
+                            {{--</td>--}}
+                            {{--<td>--}}
+                            {{--<strong> {{isset($reports[$i]["debit_tumpah"])}} </strong>--}}
+                            {{--</td>--}}
+                            {{--<td>--}}
+                            {{--<strong> {{isset($reports[$i]) ? $reports[$i]["debit_tumpah"].' cm' : '-'}} </strong>--}}
+                            {{--</td>--}}
+                            {{--</tr>--}}
+                            {{--@endfor--}}
                             </tbody>
                         </table>
                     </div>
