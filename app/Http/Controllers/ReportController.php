@@ -27,7 +27,7 @@ class ReportController extends Controller
 
 
         $report = Report::select(DB::raw('DATE(created_at) as day'), DB::raw('AVG(sungai) as sungai'), DB::raw('AVG(debittumpah) as debittumpah'))
-            ->groupBy('day')->whereMonth('created_at', $bulan)->get();
+            ->groupBy('day')->whereMonth('created_at', $bulan)->orderBy('created_at', 'DESC')->get();
 
 //        dd($report);
 
@@ -69,7 +69,7 @@ class ReportController extends Controller
 
     public function debittumpah()
     {
-        $debittumpah = Report::select('created_at', 'debittumpah','sungai')->get();
+        $debittumpah = Report::select('created_at', 'debittumpah','sungai')->orderBy('created_at', 'DESC')->get();
         return view('pages.ketinggiandebittumpah', compact('debittumpah'));
     }
 
