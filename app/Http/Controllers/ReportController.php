@@ -63,7 +63,7 @@ class ReportController extends Controller
 
     public function sungai()
     {
-        $sungai = Report::select('created_at', 'sungai')->orderBy('created_at', 'asc')->get();
+        $sungai = Report::select('created_at', 'sungai')->orderBy('created_at', 'DESC')->get();
         return view('pages.ketinggiansungai', compact('sungai'));
     }
 
