@@ -27,7 +27,7 @@ class ReportController extends Controller
 
 
         $report = Report::select(DB::raw('DATE(created_at) as day'), DB::raw('AVG(sungai) as sungai'), DB::raw('AVG(debittumpah) as debittumpah'))
-            ->groupBy('day')->whereMonth('created_at', $bulan)->orderBy('created_at', 'DESC')->get();
+            ->groupBy('day')->whereMonth('created_at', $bulan)->get();
 
 //        dd($report);
 
