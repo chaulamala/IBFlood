@@ -38,7 +38,7 @@ class ReportController extends Controller
 
         $report = Report::select
         (DB::raw('avg(debittumpah) as debittumpah, avg(sungai) as sungai, DATE(created_at) as day'))
-            ->groupBy('day')->whereMonth('created_at','=', date('m'))->get();
+            ->groupBy('day')->whereMonth('created_at','=', date('m'))->orderBy('created_at')->get();
 
 
         return response()->json([
@@ -49,7 +49,7 @@ class ReportController extends Controller
     }
 
     public function daynow(){
-        $report = Report::select('sungai','debittumpah','created_at')->whereDay('created_at', '=', date('d'))->orderBy('created_at')->get();
+        $report = Report::select('sungai','debittumpah','created_at')->whereDay('created_at', '=', date('d'))->orderBy('created_at','asc')->get();
         return response()->json([
             'message' => 'berhasil',
             'status' => 1,
