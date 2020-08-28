@@ -49,7 +49,7 @@ class ReportController extends Controller
     }
 
     public function daynow(){
-        $report = Report::select('sungai','debittumpah','created_at')->whereDay('created_at', '=', date('d'))->orderBy('created_at','asc')->get();
+        $report = Report::select('sungai','debittumpah','created_at')->whereDate('created_at','=' ,Carbon::today())->orderBy('created_at','asc')->get();
         return response()->json([
             'message' => 'berhasil',
             'status' => 1,
